@@ -13,6 +13,8 @@ const expectedIds = [
   "heat-equation",
   "2d-ising-model",
   "earth-geoid",
+  "oscillators",
+  "image-compression-svd",
 ];
 
 const expectedTitles = [
@@ -26,6 +28,8 @@ const expectedTitles = [
   "Heat Equation",
   "2D Ising Model",
   "Earth Geoid",
+  "Three-Bead Oscillator Modes",
+  "Image Compression with SVD",
 ];
 
 const expectedUrls = [
@@ -39,6 +43,8 @@ const expectedUrls = [
   "https://rayleighlord.github.io/HeatEquation/",
   "https://rayleighlord.github.io/2DIsingModel/",
   "https://rayleighlord.github.io/EarthGeoidRepresentation/",
+  "https://rayleighlord.github.io/Oscillators/",
+  "https://rayleighlord.github.io/ImageCompressionSVD/",
 ];
 
 const expectedDescriptions = [
@@ -52,10 +58,12 @@ const expectedDescriptions = [
   "Study the temperature evolution of a 1D rod, explore its Fourier content, and insert any user-defined profile.",
   "Explore spin domains and thermodynamic observables across the two-dimensional Ising phase transition.",
   "Earth is not a perfect sphere. Explore its actual geoid shape by breaking down its different contributions.",
+  "Explore how the motion of three coupled beads decomposes into a superposition of its three normal modes.",
+  "Explore image compression with singular value decomposition by comparing the original image with low-rank reconstructions.",
 ];
 
 describe("visualization catalog", () => {
-  it("keeps the approved ten-card order", () => {
+  it("keeps the approved twelve-card order", () => {
     expect(visualizations.map(({ id }) => id)).toEqual(expectedIds);
     expect(visualizations.map(({ title }) => title)).toEqual(expectedTitles);
   });

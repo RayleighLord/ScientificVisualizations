@@ -8,7 +8,7 @@ remain a static, backend-free site that deploys safely at a GitHub Pages reposit
 ## Catalog invariants
 
 - Keep visualization data in the typed catalog in `src/catalog.ts`.
-- Preserve the approved ten-card order and canonical destinations recorded in the catalog.
+- Preserve the approved twelve-card order and canonical destinations recorded in the catalog.
 - Each complete card is a semantic same-tab link to its corresponding visualization.
 - Cards contain a representative image, title, short description, and action only. Do not add
   topic subtitles or equations.

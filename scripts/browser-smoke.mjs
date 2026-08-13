@@ -17,6 +17,8 @@ const expectedVisualizations = [
   ["heat-equation", "https://rayleighlord.github.io/HeatEquation/"],
   ["2d-ising-model", "https://rayleighlord.github.io/2DIsingModel/"],
   ["earth-geoid", "https://rayleighlord.github.io/EarthGeoidRepresentation/"],
+  ["oscillators", "https://rayleighlord.github.io/Oscillators/"],
+  ["image-compression-svd", "https://rayleighlord.github.io/ImageCompressionSVD/"],
 ];
 
 const host = "127.0.0.1";

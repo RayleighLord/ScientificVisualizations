@@ -94,4 +94,22 @@ export const visualizations: readonly Visualization[] = [
     preview: "./previews/earth-geoid.webp",
     accent: "#526b9f",
   },
+  {
+    id: "oscillators",
+    title: "Three-Bead Oscillator Modes",
+    description:
+      "Explore how the motion of three coupled beads decomposes into a superposition of its three normal modes.",
+    url: "https://rayleighlord.github.io/Oscillators/",
+    preview: "./previews/oscillators.webp",
+    accent: "#7057bd",
+  },
+  {
+    id: "image-compression-svd",
+    title: "Image Compression with SVD",
+    description:
+      "Explore image compression with singular value decomposition by comparing the original image with low-rank reconstructions.",
+    url: "https://rayleighlord.github.io/ImageCompressionSVD/",
+    preview: "./previews/image-compression-svd.webp",
+    accent: "#8a5a16",
+  },
 ];
