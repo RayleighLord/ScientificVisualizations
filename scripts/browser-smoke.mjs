@@ -15,10 +15,13 @@ const expectedVisualizations = [
   ["oscillating-membranes", "https://rayleighlord.github.io/OscillatingMembranes/"],
   ["acoustic-duct-modes", "https://rayleighlord.github.io/AcousticDuctModes/"],
   ["heat-equation", "https://rayleighlord.github.io/HeatEquation/"],
-  ["2d-ising-model", "https://rayleighlord.github.io/2DIsingModel/"],
+  ["wave-equation", "https://rayleighlord.github.io/WaveEquation/"],
   ["earth-geoid", "https://rayleighlord.github.io/EarthGeoidRepresentation/"],
   ["oscillators", "https://rayleighlord.github.io/Oscillators/"],
+  ["potential-flow-explorer", "https://rayleighlord.github.io/PotentialFlowExplorer/"],
+  ["2d-ising-model", "https://rayleighlord.github.io/2DIsingModel/"],
   ["image-compression-svd", "https://rayleighlord.github.io/ImageCompressionSVD/"],
+  ["fourier-sound", "https://rayleighlord.github.io/FourierSound/"],
 ];
 
 const host = "127.0.0.1";

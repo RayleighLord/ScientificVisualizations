@@ -11,10 +11,13 @@ const expectedIds = [
   "oscillating-membranes",
   "acoustic-duct-modes",
   "heat-equation",
-  "2d-ising-model",
+  "wave-equation",
   "earth-geoid",
   "oscillators",
+  "potential-flow-explorer",
+  "2d-ising-model",
   "image-compression-svd",
+  "fourier-sound",
 ];
 
 const expectedTitles = [
@@ -26,10 +29,13 @@ const expectedTitles = [
   "Oscillating Membranes",
   "Acoustic Duct Modes",
   "Heat Equation",
-  "2D Ising Model",
+  "Wave equation",
   "Earth Geoid",
   "Three-Bead Oscillator Modes",
+  "Potential Flow",
+  "2D Ising Model",
   "Image Compression with SVD",
+  "Fourier Filtering",
 ];
 
 const expectedUrls = [
@@ -41,10 +47,13 @@ const expectedUrls = [
   "https://rayleighlord.github.io/OscillatingMembranes/",
   "https://rayleighlord.github.io/AcousticDuctModes/",
   "https://rayleighlord.github.io/HeatEquation/",
-  "https://rayleighlord.github.io/2DIsingModel/",
+  "https://rayleighlord.github.io/WaveEquation/",
   "https://rayleighlord.github.io/EarthGeoidRepresentation/",
   "https://rayleighlord.github.io/Oscillators/",
+  "https://rayleighlord.github.io/PotentialFlowExplorer/",
+  "https://rayleighlord.github.io/2DIsingModel/",
   "https://rayleighlord.github.io/ImageCompressionSVD/",
+  "https://rayleighlord.github.io/FourierSound/",
 ];
 
 const expectedDescriptions = [
@@ -56,14 +65,17 @@ const expectedDescriptions = [
   "Explore the vibration modes of arbitrary membrane shapes drawn by hand.",
   "Visualize the acoustic modes propagating inside a rigid cylindrical duct.",
   "Study the temperature evolution of a 1D rod, explore its Fourier content, and insert any user-defined profile.",
-  "Explore spin domains and thermodynamic observables across the two-dimensional Ising phase transition.",
+  "Explore the one-dimensional wave equation in infinite, semi-infinite, and finite domains.",
   "Earth is not a perfect sphere. Explore its actual geoid shape by breaking down its different contributions.",
   "Explore how the motion of three coupled beads decomposes into a superposition of its three normal modes.",
+  "Explore classical planar potential flows by superposing uniform flows, sources, sinks, vortices, and doublets.",
+  "Explore spin domains and thermodynamic observables across the two-dimensional Ising phase transition.",
   "Explore image compression with singular value decomposition by comparing the original image with low-rank reconstructions.",
+  "Explore, filter, and hear the Fourier decomposition of a sound signal.",
 ];
 
 describe("visualization catalog", () => {
-  it("keeps the approved twelve-card order", () => {
+  it("keeps the approved fifteen-card order", () => {
     expect(visualizations.map(({ id }) => id)).toEqual(expectedIds);
     expect(visualizations.map(({ title }) => title)).toEqual(expectedTitles);
   });

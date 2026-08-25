@@ -77,13 +77,13 @@ export const visualizations: readonly Visualization[] = [
     accent: "#00728b",
   },
   {
-    id: "2d-ising-model",
-    title: "2D Ising Model",
+    id: "wave-equation",
+    title: "Wave equation",
     description:
-      "Explore spin domains and thermodynamic observables across the two-dimensional Ising phase transition.",
-    url: "https://rayleighlord.github.io/2DIsingModel/",
-    preview: "./previews/2d-ising-model.webp",
-    accent: "#856900",
+      "Explore the one-dimensional wave equation in infinite, semi-infinite, and finite domains.",
+    url: "https://rayleighlord.github.io/WaveEquation/",
+    preview: "./previews/wave-equation.webp",
+    accent: "#16818a",
   },
   {
     id: "earth-geoid",
@@ -104,6 +104,24 @@ export const visualizations: readonly Visualization[] = [
     accent: "#7057bd",
   },
   {
+    id: "potential-flow-explorer",
+    title: "Potential Flow",
+    description:
+      "Explore classical planar potential flows by superposing uniform flows, sources, sinks, vortices, and doublets.",
+    url: "https://rayleighlord.github.io/PotentialFlowExplorer/",
+    preview: "./previews/potential-flow-explorer.webp",
+    accent: "#2e8cff",
+  },
+  {
+    id: "2d-ising-model",
+    title: "2D Ising Model",
+    description:
+      "Explore spin domains and thermodynamic observables across the two-dimensional Ising phase transition.",
+    url: "https://rayleighlord.github.io/2DIsingModel/",
+    preview: "./previews/2d-ising-model.webp",
+    accent: "#856900",
+  },
+  {
     id: "image-compression-svd",
     title: "Image Compression with SVD",
     description:
@@ -111,5 +129,13 @@ export const visualizations: readonly Visualization[] = [
     url: "https://rayleighlord.github.io/ImageCompressionSVD/",
     preview: "./previews/image-compression-svd.webp",
     accent: "#8a5a16",
+  },
+  {
+    id: "fourier-sound",
+    title: "Fourier Filtering",
+    description: "Explore, filter, and hear the Fourier decomposition of a sound signal.",
+    url: "https://rayleighlord.github.io/FourierSound/",
+    preview: "./previews/fourier-sound.webp",
+    accent: "#9b6518",
   },
 ];
