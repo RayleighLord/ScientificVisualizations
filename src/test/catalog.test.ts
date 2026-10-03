@@ -10,6 +10,7 @@ const expectedIds = [
   "circular-membrane-modes",
   "oscillating-membranes",
   "acoustic-duct-modes",
+  "wing-modes",
   "heat-equation",
   "wave-equation",
   "earth-geoid",
@@ -28,6 +29,7 @@ const expectedTitles = [
   "Circular Membrane Modes",
   "Oscillating Membranes",
   "Acoustic Duct Modes",
+  "Wing Modes",
   "Heat Equation",
   "Wave equation",
   "Earth Geoid",
@@ -46,6 +48,7 @@ const expectedUrls = [
   "https://rayleighlord.github.io/CircularMembraneModes/",
   "https://rayleighlord.github.io/OscillatingMembranes/",
   "https://rayleighlord.github.io/AcousticDuctModes/",
+  "https://rayleighlord.github.io/WingModes/",
   "https://rayleighlord.github.io/HeatEquation/",
   "https://rayleighlord.github.io/WaveEquation/",
   "https://rayleighlord.github.io/EarthGeoidRepresentation/",
@@ -64,6 +67,7 @@ const expectedDescriptions = [
   "Explore the natural frequencies and animated vibration modes of a circular membrane with fixed edges.",
   "Explore the vibration modes of arbitrary membrane shapes drawn by hand.",
   "Visualize the acoustic modes propagating inside a rigid cylindrical duct.",
+  "Explore the natural frequencies and animated vibration modes of an aircraft wing.",
   "Study the temperature evolution of a 1D rod, explore its Fourier content, and insert any user-defined profile.",
   "Explore the one-dimensional wave equation in infinite, semi-infinite, and finite domains.",
   "Earth is not a perfect sphere. Explore its actual geoid shape by breaking down its different contributions.",
@@ -75,7 +79,7 @@ const expectedDescriptions = [
 ];
 
 describe("visualization catalog", () => {
-  it("keeps the approved fifteen-card order", () => {
+  it("keeps the approved sixteen-card order", () => {
     expect(visualizations.map(({ id }) => id)).toEqual(expectedIds);
     expect(visualizations.map(({ title }) => title)).toEqual(expectedTitles);
   });

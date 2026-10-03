@@ -14,6 +14,7 @@ const expectedVisualizations = [
   ["circular-membrane-modes", "https://rayleighlord.github.io/CircularMembraneModes/"],
   ["oscillating-membranes", "https://rayleighlord.github.io/OscillatingMembranes/"],
   ["acoustic-duct-modes", "https://rayleighlord.github.io/AcousticDuctModes/"],
+  ["wing-modes", "https://rayleighlord.github.io/WingModes/"],
   ["heat-equation", "https://rayleighlord.github.io/HeatEquation/"],
   ["wave-equation", "https://rayleighlord.github.io/WaveEquation/"],
   ["earth-geoid", "https://rayleighlord.github.io/EarthGeoidRepresentation/"],

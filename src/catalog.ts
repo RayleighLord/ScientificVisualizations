@@ -68,6 +68,15 @@ export const visualizations: readonly Visualization[] = [
     accent: "#5846b8",
   },
   {
+    id: "wing-modes",
+    title: "Wing Modes",
+    description:
+      "Explore the natural frequencies and animated vibration modes of an aircraft wing.",
+    url: "https://rayleighlord.github.io/WingModes/",
+    preview: "./previews/wing-modes.webp",
+    accent: "#315f9f",
+  },
+  {
     id: "heat-equation",
     title: "Heat Equation",
     description:
